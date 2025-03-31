@@ -9,6 +9,7 @@ export default function ProjectCard({
   links,
   listOfTechStack,
   rightAlign,
+  projectStatus
 }) {
   const isPhone = useMediaQuery((theme) => theme.breakpoints.down('md'));
 
@@ -47,7 +48,7 @@ export default function ProjectCard({
         sx={{ textAlign: setRightAlignment() ? 'right' : 'left' }}
       >
         <Typography variant="body1" color="secondary">
-          Nya projekt
+          {projectStatus}
         </Typography>
         <Typography
           variant="h4"

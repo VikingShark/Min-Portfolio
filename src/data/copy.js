@@ -6,6 +6,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import macHero from '../assets/mac-review.png';
 import villeHero from '../assets/ville-1.png';
+import FlaggApp from '../assets/FlaggApp.jpg';
+import MotivationGenerator from '../assets/MotivationsGenerator.jpg';
 
 export const COPY = {
   hero: {
@@ -49,18 +51,33 @@ export const COPY = {
   },
   projects: [
     {
+      projectStatus: 'Pågående',
       img: eHandel,
       title: 'E-handelsplattform med 1 click checkout',
       listOfTechStack: ['React', 'Node', 'Express', 'API'],
       description:
         'E-handelsprojektet går ut på att utveckla en responsiv webbapplikation med React och en backend som integrerar Klarna Checkout som betalningslösning. Studenter arbetar i grupper om tre och hanterar projektet genom Git och GitHub. Målet är att bygga en fungerande webbutik med varukorg, betalningshantering och deployad frontend och backend.',
       links: [
-        { Icon: GitHubIcon, href: 'https://github.com/' },
-        { Icon: OpenInNewIcon, href: 'https://github.com/' },
+        { Icon: GitHubIcon, href: 'https://github.com/VikingShark/Techover-Ehandel' },
+        { Icon: OpenInNewIcon, href: 'https://github.com/VikingShark/Techover-Ehandel' },
       ],
       rightAlign: true,
     },
     {
+      projectStatus: 'Nytt projekt',
+      img: FlaggApp,
+      title: '"Världens Länder" – Interaktiv Länderapp i React',
+      listOfTechStack: ['React', 'Material UI', 'JavaScript', 'REST API'],
+      description:
+        'Jag har utvecklat en React-baserad app som hämtar och presenterar interaktiv data om världens länder med hjälp av ett REST-API. "Världens Länder" är ett projekt som visar min styrka inom React-utveckling, API-integration och modern webbutveckling.',
+      links: [
+        { Icon: GitHubIcon, href: 'https://github.com/VikingShark/Flag-App-Main' },
+        { Icon: OpenInNewIcon, href: 'https://villiam-flag-app.vercel.app/' },
+      ],
+      rightAlign: true,
+    },
+    {
+      projectStatus: 'Nytt Projekt',
       img: klarna,
       title: 'Klarna Checkout',
       listOfTechStack: ['Node', 'Express', 'API'],
@@ -73,6 +90,7 @@ export const COPY = {
       rightAlign: false,
     },
     {
+      projectStatus: 'Nytt Projekt',
       img: spotifyKlon,
       title: 'Spotify klon',
       listOfTechStack: ['React', 'MUI', 'SDK', 'API'],
@@ -85,14 +103,28 @@ export const COPY = {
       rightAlign: true,
     },
     {
+      projectStatus: 'Projekt',
+      img: MotivationGenerator,
+      title: 'Motivationsgenerator',
+      listOfTechStack: ['HTML5', 'Responsivitet', 'CSS', 'JavaScript', 'REST API'],
+      description:
+        'Det här projektet visar min förmåga att kombinera kreativitet och funktionalitet i webbutveckling, med fokus på responsiv design och API-integration.',
+      links: [
+        { Icon: GitHubIcon, href: 'https://github.com/VikingShark/Motivation-Generator' },
+        { Icon: OpenInNewIcon, href: 'https://motivation-generator.vercel.app/' },
+      ],
+      rightAlign: false,
+    },
+    {
+      projectStatus: 'Projekt',
       img: orderSumCard,
       title: 'Ordersummering',
       listOfTechStack: ['CVO', 'Responsivitet', 'CSS', 'Design'],
       description:
         'Jag byggde en orderöversiktsapplikation med fokus på pixelperfekt design och interaktivitet för att skapa en smidig användarupplevelse. Genom att implementera hover-effekter och klicklägen säkerställde jag ett dynamiskt gränssnitt som följer designriktlinjer.',
       links: [
-        { Icon: GitHubIcon, href: 'https://github.com/' },
-        { Icon: OpenInNewIcon, href: 'https://github.com/' },
+        { Icon: GitHubIcon, href: 'https://github.com/VikingShark/Best-llningskortet' },
+        { Icon: OpenInNewIcon, href: 'https://bestallningskortet.vercel.app/' },
       ],
       rightAlign: false,
     },
@@ -112,6 +144,8 @@ export const COPY = {
       'Vill du ta din e-handel till nästa nivå med smarta och skalbara digitala lösningar? Hör av dig så pratar vi om hur jag kan bidra till din e-handels framgång!',
     cta: {
       text: 'TA KONTAKT',
+      phone: '072-012 36 83',
+      email: 'villiam.strannerklint@hotmail.com',
       callback: () =>
         window.open(
           'https://www.linkedin.com/in/villiam-mejlvang-strannerklint-7a769b216/',
