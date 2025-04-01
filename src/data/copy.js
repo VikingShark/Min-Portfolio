@@ -96,8 +96,8 @@ export const COPY = {
       description:
         'Jag har byggt en Spotify-klon med React, Material UI och Spotifys API för att skapa en autentisk musikupplevelse. Projektet innehåller funktioner som musikuppspelning via Spotifys Web Playback SDK, autentisering och dynamisk hantering av spellistor. Det visar min förmåga att arbeta med avancerade API-integrationer, skapa responsiva gränssnitt och utveckla skalbara webbapplikationer.',
       links: [
-        { Icon: GitHubIcon, href: 'https://github.com/' },
-        { Icon: OpenInNewIcon, href: 'https://github.com/' },
+        { Icon: GitHubIcon, href: 'https://github.com/VikingShark/Spotify-Web-App' },
+        { Icon: OpenInNewIcon, href: 'https://spotify-web-app-sigma.vercel.app/' },
       ],
       rightAlign: true,
     },
