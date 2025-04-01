@@ -84,8 +84,7 @@ export const COPY = {
       description:
         'För att effektivisera e-handeln och skapa en smidig betalningsupplevelse utvecklade jag en Klarna Checkout-lösning med Express och Node. Genom att integrera flera API:er säkerställde jag säkra transaktioner och ett enkelt flöde för både kunder och handlare. Resultatet är en användarvänlig betalningslösning som visar hur modern fintech och genomtänkt design kan driva affärer framåt.',
       links: [
-        { Icon: GitHubIcon, href: 'https://github.com/' },
-        { Icon: OpenInNewIcon, href: 'https://github.com/' },
+        { Icon: GitHubIcon, href: 'https://github.com/VikingShark/Klarna-Checkout' }
       ],
       rightAlign: false,
     },
